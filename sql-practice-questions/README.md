@@ -11,7 +11,17 @@ This repository is a SQL practice pack for data engineering interviews. It inclu
 | `sql-practice-questions.md` | 150 medium and hard SQL questions |
 | `extremely-hard-sql-questions.md` | 100 senior-level data engineering SQL challenges |
 | `company-wise-sql-interview-questions.md` | Company-style SQL questions inspired by common interview patterns |
+| `playground/` | Local SQLite playground to run and validate SQL answers |
 | `GITHUB_UPLOAD_STEPS.md` | Notes for pushing this folder to GitHub |
+
+## SQL Playground
+
+Run validated practice questions locally:
+
+```bash
+python3 sql-practice-questions/playground/validate_query.py --list
+python3 sql-practice-questions/playground/validate_query.py --question q001 --file sql-practice-questions/playground/answers/q001.example.sql --show
+```
 
 ## Practice Paths
 
