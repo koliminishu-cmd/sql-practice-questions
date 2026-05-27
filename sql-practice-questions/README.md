@@ -1,11 +1,38 @@
-# SQL Practice Questions for Data Engineer Interviews
+# SQL Practice Questions for Data Engineering Interviews
 
-This folder contains 150 medium and hard SQL practice questions for data engineer interview preparation.
+This repository is a SQL practice pack for data engineering interviews. It includes medium, hard, extremely hard, and company-style questions with a simple workflow for solving, tracking, and reviewing.
 
-## Files
+## Start Here
 
-- `sql-practice-questions.md` - Main question bank with 75 medium and 75 hard questions.
-- `extremely-hard-sql-questions.md` - Senior-level data engineering SQL challenges.
+| File | Use it for |
+| --- | --- |
+| `SOLVING_GUIDE.md` | How to approach each SQL problem in an interview-friendly way |
+| `progress-tracker.md` | Track solved, revised, and weak questions |
+| `sql-practice-questions.md` | 150 medium and hard SQL questions |
+| `extremely-hard-sql-questions.md` | 100 senior-level data engineering SQL challenges |
+| `company-wise-sql-interview-questions.md` | Company-style SQL questions inspired by common interview patterns |
+| `GITHUB_UPLOAD_STEPS.md` | Notes for pushing this folder to GitHub |
+
+## Practice Paths
+
+### 30-Day Interview Prep
+
+1. Days 1-10: Solve medium questions from `sql-practice-questions.md`.
+2. Days 11-20: Solve hard questions from `sql-practice-questions.md`.
+3. Days 21-25: Solve company-style questions.
+4. Days 26-30: Solve extremely hard questions and revise weak areas.
+
+### Topic Order
+
+1. Aggregations and joins
+2. Window functions
+3. CTEs and subqueries
+4. Deduplication and data quality
+5. Sessionization and funnels
+6. Cohort and retention analysis
+7. SCD Type 2 and temporal joins
+8. Recursive SQL and lineage
+9. Pipeline monitoring and warehouse observability
 
 ## Suggested Practice Method
 
@@ -14,3 +41,13 @@ This folder contains 150 medium and hard SQL practice questions for data enginee
 3. Test edge cases such as nulls, duplicates, late-arriving data, and tied ranks.
 4. Rewrite the same answer using CTEs, window functions, and subqueries where possible.
 5. Explain the query as if you were speaking in an interview.
+
+## How to Mark Progress
+
+Use this status style in `progress-tracker.md`:
+
+- `Not Started`
+- `Attempted`
+- `Solved`
+- `Needs Revision`
+- `Mastered`
